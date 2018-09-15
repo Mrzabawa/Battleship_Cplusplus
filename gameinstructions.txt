@@ -1,0 +1,35 @@
+File Format:
+TypeOfShip,Location,HorizOrVer and assumes that it is in .csv format and has a header.
+
+Where TypeOfShip is one of theses strings:
+Carrier
+Battleship
+Cruiser
+Submarine
+Destroyer
+
+Where Location is the staring point of the ship.
+The Location is given first by a character and second by an integer.
+The character range is A - J and the range for the integer is 1 - 10.
+
+Where HorizOrVer is the orientation of the ship with respect to the Location.
+The HorizOrVer is a character of 'H' or 'V' and will make the ship be
+horizontal or vertical.
+
+Rules of the game:
+After the ships are placed each player will take turns "shooting" torpedos
+at each other. If the shot is a hit the player can take another shot until
+there is a miss and then it is the opposing players turn. Once the ship has been hit
+according to its size (see below) it will show sunk and the "shot board" will change
+from X to the mark of the ship. The mark on the shot board for a hit is X and O for
+a miss.
+
+A winner is declared after all the opposing player ships are sunk. The ship, size and board marks are listed below.
+Ship:		Size:	Mark:
+Carrier		5	    C
+Battleship	4	    B
+Cruiser		3	    U
+Submarine	3	    S
+Destroyer	2	    D
+
+At any point in the game the player can enter q to exit the game and end the program.
