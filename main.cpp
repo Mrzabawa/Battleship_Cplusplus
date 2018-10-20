@@ -20,8 +20,8 @@ using namespace std;
 int main(){
     srand(time(nullptr));
     
-    int choice;
-    char play;
+    int choice = 0;
+    char play = ' ';
     string fileName;
     bool readyToPlay = true;
     bool gameOn = true;
